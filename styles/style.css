@@ -94,7 +94,7 @@ hr{
 }
 .part-two{
     width: 1047px;
-height: 1860px;
+    height: 1860px;
     padding-top:100px;
     position:relative;
 }
@@ -102,7 +102,7 @@ height: 1860px;
     margin:44px;
     padding:16px;
     width: 300px;
-    height: 500px;
+    
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -184,4 +184,33 @@ footer h5{
 }
 .footer-icon{
     color:white;
+}
+/*media queries*/
+/*Mobile*/
+@media only screen and (max-width:688px){
+    .container{
+        width:100%;
+    }
+    
+    .part-one{
+        display:block;
+    }
+    .part-one img{
+        padding-top:100px;
+    }
+    .part-two h2{
+        justify-content: left;
+    }
+    hr{
+        width:100%;
+    }
+    .articles{
+        height:100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .part-three{
+        width:100%;
+        display:block;
+    }
+       
 }
