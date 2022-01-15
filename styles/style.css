@@ -1,6 +1,15 @@
 /*imports*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@700;800;900&family=Poppins:wght@400;700&display=swap');
-
+ 
+/*Special Effects*/
+.info:hover{
+    border:5px solid navy;
+    padding:30px;
+}
+.last-info:hover{
+    border:5px solid navy;
+    padding:30px;
+}
 /*body styles*/
 body{
     margin:0%;
@@ -38,7 +47,7 @@ header{
 .info{
     padding-top:80px;
     padding-right:133px;
-    height:270px;
+    height:350px;
     width:100%;
 }
 .first-para{
@@ -153,6 +162,9 @@ height: 5px;
     padding-left:100px;
     padding-bottom:px;
 }
+.part-three-image{
+    padding-right: 50px;
+}
 /*footer*/
 footer{
     margin:0%;
@@ -167,7 +179,7 @@ footer h3{
     font-size: 20px;;
 }
 footer h5{
-    font-size:10px;
+    font-size:13px;
     font-weight:normal;
 }
 .footer-icon{
